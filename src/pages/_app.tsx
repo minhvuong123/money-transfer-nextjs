@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '@/src/styles/globals.css'
 import "@fontsource/open-sans";
 import type { AppProps } from 'next/app'
 
