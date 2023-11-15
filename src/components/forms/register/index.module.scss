@@ -1,0 +1,27 @@
+.form {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nameConatiner {
+  display: flex;
+  gap: 4px;
+}
+
+.button {
+  background: #272727;
+  padding: 20px 0;
+  width: 100%;
+  outline: none;
+  color: #bebebe;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: 300ms background-color ease;
+  &:hover {
+    background-color: #323232;
+  }
+}
