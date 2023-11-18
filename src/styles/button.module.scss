@@ -1,16 +1,5 @@
-.form {
-  width: 800px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
 
-.nameConatiner {
-  display: flex;
-  gap: 4px;
-}
-
-.button {
+.defaultButton {
   background: #272727;
   padding: 20px 0;
   width: 100%;
