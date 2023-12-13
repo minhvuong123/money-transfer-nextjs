@@ -1,13 +1,12 @@
-import { NextPageWithLayout } from "@/src/types";
 import { FC, PropsWithChildren } from "react";
-import { NavigationSidebar } from "../sidebars/NavigationSidebar";
-
+import { NavigationSidebar } from "../sidebars/navigation/NavigationSidebar";
+import styles from './index.module.scss';
 
 export const DashboardLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <>
+    <div className={styles.layout}>
       <NavigationSidebar />
-      <main>{children}</main>
-    </>
+      <main className={styles.main}>{children}</main>
+    </div>
   )
 }

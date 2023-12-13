@@ -1,0 +1,11 @@
+.icon {
+  cursor: pointer;
+  color: #fff;
+  &:hover {
+    color: rgb(128, 128, 128);
+  }
+}
+
+.active {
+  color: #878787;
+}
