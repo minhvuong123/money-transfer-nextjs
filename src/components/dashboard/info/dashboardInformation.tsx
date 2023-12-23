@@ -7,7 +7,6 @@ export const DashboardInformation = () => {
     <div className={styles.container}>
         <BalanceInfoCard />
         <BalanceInfoCard />
-        <BalanceInfoCard />
     </div>
   )
 }
