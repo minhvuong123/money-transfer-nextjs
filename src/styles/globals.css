@@ -29,6 +29,10 @@ body {
   }
 }
 
+h1 {
+  margin: 0;
+}
+
 .pageFlex {
   height: 100%;
   width: 100%;
